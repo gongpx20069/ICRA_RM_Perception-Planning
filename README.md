@@ -35,3 +35,11 @@ This is our reproduction of Yolo nano's training script.
 #### 4.1.2 YoloNanoTest.ipynb
 This is our reproduction of Yolo nano's test script. We can also directly convert to Python in ipynb and modify the code to run in NVIDIA Jetson TX2.
 ### 4.2 sentry_pose
+#### 4.2.1 sentry_train.py
+We collected the position of our robot after AMCL algorithm and the information of two sentry cameras, stored the relevant data and carried out network training. Our network can directly input the sentry camera and output the position of the robot.
+
+#### 4.2.2 sentry_test.py
+Neural network input sentry image directly to predict the position of enemy robot.
+
+### 4.3 path planning
+#### 4.3.1 
