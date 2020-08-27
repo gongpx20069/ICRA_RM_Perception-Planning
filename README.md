@@ -42,4 +42,5 @@ We collected the position of our robot after AMCL algorithm and the information 
 Neural network input sentry image directly to predict the position of enemy robot.
 
 ### 4.3 path planning
-#### 4.3.1 
+#### 4.3.1 PRM_AStar.py
+In this part of the code, we mainly implement the robot path planning algorithm astar algorithm, and use PRM to reduce the calculation workload, so that the astar algorithm can be executed in real time. It can quickly provide a planned route for the robot.
