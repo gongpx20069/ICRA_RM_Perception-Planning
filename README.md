@@ -30,5 +30,8 @@ Where, the blue dots and lines indicate the path that the robot can walk, and th
 ## 4 Codes
 
 ### 4.1 YoloNano
-
+#### 4.1.1 YoloNanoTrain.ipynb
+This is our reproduction of Yolo nano's training script.
+#### 4.1.2 YoloNanoTest.ipynb
+This is our reproduction of Yolo nano's test script. We can also directly convert to Python in ipynb and modify the code to run in NVIDIA Jetson TX2.
 ### 4.2 sentry_pose
